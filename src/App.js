@@ -1,12 +1,13 @@
-import './App.css';
 import Header from './components/Header';
-import ReleasesContainer from './components/ReleasesContainer';
+import Releases from './components/Releases';
 import Footer from './components/Footer';
+import News from './components/News';
 
 function App() {
   return <>
     <Header />
-    <ReleasesContainer />
+    <Releases />
+    <News />
     <Footer />
   </>;
 }

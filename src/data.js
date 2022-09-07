@@ -153,3 +153,57 @@ export const releases = [
     extrasHTML: null
   },
 ]
+
+export const news = [
+  {
+    date: 'Sep 5, 2022',
+    title: 'UUUE Playing 4752 Festival on October 22nd',
+    byLine: 'by Mike',
+    contentHTML: `See unofficial Spooky Tree Record mascots UUUE play at 4752 Festival on 10/22. 
+    <br>
+    4:15pm at Destination Soups - 149 Union St in New Bedford, MA`
+  },
+  {
+    date: 'Feb 4, 2021',
+    title: '"Morris on Morris" Music Video',
+    byLine: 'by Mike',
+    contentHTML: `Last week, UUUE uploaded a new music video for their song "Morris on Morris" from the Psychic Dollhouse EP on YouTube. The video was created by the band's own Jhonathan Ramos.
+    <p>
+      <iframe width="984" height="791" src="https://www.youtube.com/embed/JY8amYwNbMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>`
+  },
+  {
+    date: 'Jan 3, 2021',
+    title: 'New Release from UUUE',
+    byLine: 'by Mike',
+    contentHTML: `Yesterday, UUUE self-released a new project, the <em>Psychic Dollhouse EP</em>, which sees the band working with shorter, more contained songs. Although the release is only five songs and about 18 minutes long, the band traverses a wide variety of sonic terrain and mood, which ranges from mellow on "Morris on Morris", to sinister on "Andromeda". This is another solid release from the band that showcases improved songwriting in this writer's humble opinion. They're hoping to have another full-length released by the end of the year and play some live shows as soon as the music scene is revived.
+    <p>
+        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2252136896/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://uuue.bandcamp.com/album/psychic-dollhouse-ep">Psychic Dollhouse EP by uuue</a></iframe>
+    </p>`
+  },
+  {
+    date: 'Dec 22, 2020',
+    title: 'UUUE Live Performance from Dorchester Art Project',
+    byLine: 'by Mike',
+    contentHTML: `Thanks to the cool <a href="https://brain-arts.org/">Brain-Arts</a> folks at <a href="https://www.dorchesterartproject.com/">Dorchester Art Project</a>, UUUE was able to record a short set last Sunday, in preparation for the release of their new <em>Psychic Dollhouse EP</em>, which should be live on their <a href="https://uuue.bandcamp.com/">Bandcamp</a> page by the end of the month. Check out the video of their latest psych-rock barrage:
+    <p>
+      <iframe width="895" height="503" src="https://www.youtube.com/embed/HvDPfO_Zcss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>`
+  },
+  {
+    date: 'Nov 1, 2020',
+    title: 'Halloween Show at Spooky Tree Headquarters',
+    byLine: 'by Mike',
+    contentHTML: ` What better time to have a Spooky Tree sponsored show than during Halloween? Yesterday, at headquarters in Hardwick, about 15 people showed up to watch uuue and Noise Nomads perform in a backyard show.The weather wasn't what we hoped for, but the energy was there, and the performances were great, although, at least one of the guitarists from uuue couldn't feel his fingers by the end of their set.
+      <div class="img-container">
+        <img src="/img/noisenomadshalloween2020.jpg" alt="Noise Nomads put crafty an erie soundtrack to Halloween 2020">
+      </div>
+      <p>Unfortunately, the recording of uuue's performance was lost because of technical issues, but below is the performance of Noise Nomads, who's industrial and glitchy drone was sure to have caused a stir in the quiet neighborhood.</p>
+      <p>
+        <iframe src="https://www.youtube.com/embed/CsXnUhaHflk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
+      <p>
+        <iframe src="https://www.youtube.com/embed/cDi7ubzyzI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>`
+  },
+]

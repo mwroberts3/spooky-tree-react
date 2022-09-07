@@ -7,7 +7,7 @@ const Releases = () => {
   return {__html: extras}
   }
 
-  return <>
+  return <section id='official-releases'>
     {
       releases.map((release) => {
         const {catNo, title, artist, image, format, year, discogsLink, bandcampLink, buyLink, desc, extrasHTML} = release;
@@ -32,7 +32,7 @@ const Releases = () => {
         </div>)
       })
     }
-  </>
+  </section>
 }
 
 export default Releases
