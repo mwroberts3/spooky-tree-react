@@ -195,15 +195,12 @@ export const news = [
     title: 'Halloween Show at Spooky Tree Headquarters',
     byLine: 'by Mike',
     contentHTML: ` What better time to have a Spooky Tree sponsored show than during Halloween? Yesterday, at headquarters in Hardwick, about 15 people showed up to watch uuue and Noise Nomads perform in a backyard show.The weather wasn't what we hoped for, but the energy was there, and the performances were great, although, at least one of the guitarists from uuue couldn't feel his fingers by the end of their set.
-      <div class="img-container">
-        <img src="/img/noisenomadshalloween2020.jpg" alt="Noise Nomads put crafty an erie soundtrack to Halloween 2020">
-      </div>
-      <p>Unfortunately, the recording of uuue's performance was lost because of technical issues, but below is the performance of Noise Nomads, who's industrial and glitchy drone was sure to have caused a stir in the quiet neighborhood.</p>
-      <p>
-        <iframe src="https://www.youtube.com/embed/CsXnUhaHflk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </p>
-      <p>
-        <iframe src="https://www.youtube.com/embed/cDi7ubzyzI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </p>`
-  },
+    <p>Unfortunately, the recording of uuue's performance was lost because of technical issues, but below is the performance of Noise Nomads, who's industrial and glitchy drone was sure to have caused a stir in the quiet neighborhood.</p>
+    <p>
+      <iframe src="https://www.youtube.com/embed/CsXnUhaHflk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    <p>
+      <iframe src="https://www.youtube.com/embed/cDi7ubzyzI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>`
+},
 ]
