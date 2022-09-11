@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -7,13 +8,13 @@ const Contact = () => {
         <h3>Send Message</h3>
       <div className="inner-boundaries">
         <form data-netlify="true">
-          <label for="name">Name</label>
+          <label htmlFor="name">Name</label>
           <input type="text" />
-          <label for="name">Email</label>
+          <label htmlFor="name">Email</label>
           <input type="text" />
-          <label for="subject">Subject</label>
+          <label htmlFor="subject">Subject</label>
           <input className="subject" type="text" />
-          <label for="message">Message</label>
+          <label htmlFor="message">Message</label>
           <textarea
             name="message"
             id="emailMessage"
@@ -30,8 +31,7 @@ const Contact = () => {
         </p>
         <p><i className="fas fa-phone"></i> (857) 236 - 4578</p>
         <p>
-          <a href="https://www.facebook.com/pages/category/Record-Label/Spooky-Tree-Records-112834568739466/">
-                <i className="fab fa-facebook-square"></i> facebook
+          <a href="https://www.facebook.com/pages/category/Record-Label/Spooky-Tree-Records-112834568739466/"> <FaFacebook/>
           </a>
         </p>
       </div>

@@ -10,7 +10,7 @@ export const releases = [
     bandcampLink: 'https://uuue.bandcamp.com/album/o',
     buyLink: null,
     desc: 'Recorded in warehouse in an industrial park in eastern Massachusetts. ...o.. by uuue is a psychedelic journey with moments of chill reverie and fiery explosions of guitar and drums. ...o.. is a bit of a throwback to some psych-rock from the early 1990s.',
-    extrasHTML:'<p><em><strong>Released <a href="https://uuue.bandcamp.com/album/psychic-dollhouse-ep"><em>Psychic Dollhouse EP</em></a> on Jan 2, 2021</strong></em></p><p class="media-link"><a href="https://www.youtube.com/watch?v=-p_POTZk6ig" target="none">Clip from performance at Midway Cafe in March 2020</a></p>'
+    extrasHTML:'<br><p><em><strong>Released <a href="https://uuue.bandcamp.com/album/psychic-dollhouse-ep"><em>Psychic Dollhouse EP</em></a> on Jan 2, 2021</strong></em></p><p class="media-link"><a href="https://www.youtube.com/watch?v=-p_POTZk6ig" target="none">Clip from performance at Midway Cafe in March 2020</a></p>'
   },
   {
     catNo: 'STR-009',

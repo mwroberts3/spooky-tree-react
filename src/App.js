@@ -12,20 +12,18 @@ import {
 } from 'react-router-dom';
 
 function App() {
-  return <>
+  return (
   <Router>
     <HeaderNav />
-
-  <Routes>
-    <Route path="/" element={<Releases />} />
-    <Route path="/news" element={<News />} />
-    <Route path="/history" element={<History />} />
-    <Route path="/contact" element={<Contact />} />
-  </Routes>
-  
-  <Footer />
+    <Routes>
+      <Route path="/" element={<Releases />} />
+      <Route path="/news" element={<News />} />
+      <Route path="/history" element={<History />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+    <Footer />
   </Router>
-  </>;
+);
 }
 
 export default App;
