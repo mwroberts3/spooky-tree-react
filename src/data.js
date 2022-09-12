@@ -135,7 +135,7 @@ export const releases = [
     year: '1996',
     discogsLink: 'https://www.discogs.com/Juneau-Space-Is-Hot/master/1655313',
     bandcampLink: null,
-    buyLink: null,
+    buyLink: 'https://www.peaceandrhythm.com/products/juneau-space-is-hot-lp?variant=24052877189',
     desc: null,
     extrasHTML: `<p>"<em>Juneau's debut full length came out on Spooky Tree in 1996. Hazy & heavy noisy Boston psych-rock trio with future members of Sunburned Hand of the Man.</em>" - Peace and Rhythm</p>`
   },
