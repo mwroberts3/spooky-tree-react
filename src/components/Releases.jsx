@@ -1,13 +1,24 @@
 import React from 'react'
+import { useState } from 'react'
 import { releases } from '../data'
 import { FaCompactDisc, FaWallet, FaBandcamp } from 'react-icons/fa'
+import ImageViewer from './ImageViewer'
 
 const Releases = () => {
-  const createExtrasHTML = (extras) => {
-  return {__html: extras}
-  }
+  const [releaseSelected, setReleaseSelected] = useState({selected: false, images: null});
 
-  return <section id='official-releases'>
+  const imageViewerPopup = (catNo) => {
+    const selectedRelease = releases.find((release) => release.catNo === catNo).allImages;
+
+    setReleaseSelected({selected: true, images: selectedRelease});
+  };
+
+  const createExtrasHTML = (extras) => {
+  return {__html: extras};
+  };
+
+  return <>
+    <section id='official-releases'>
     {
       releases.map((release) => {
         const {catNo, title, artist, image, format, year, discogsLink, bandcampLink, buyLink, desc, extrasHTML} = release;
@@ -15,8 +26,7 @@ const Releases = () => {
         return (
           <div className='str-release' key={catNo}>
           <span className='catNo'>{catNo}&nbsp;&nbsp;{year}&nbsp;&nbsp;{format}</span>
-
-          <img src={image} alt={`${title} by ${artist}`} /> 
+          <img src={image} alt={`${title} by ${artist}`} onClick={() => imageViewerPopup(catNo)}/> 
           <h3>
             <span className="title">{title}</span> <span className="artist">by {artist}</span>
           </h3>        
@@ -33,6 +43,8 @@ const Releases = () => {
       })
     }
   </section>
+  {releaseSelected.selected && <ImageViewer setReleaseSelected={setReleaseSelected} images={releaseSelected.images}/>}
+  </>
 }
 
 export default Releases

@@ -9,7 +9,7 @@ const News = () => {
   return (
     <section id="news">
       <div className="news-box">
-        <h3>News</h3>
+        <h3 className='section-title'>News</h3>
         {news.map((post) => {
           const {date, title, byLine, contentHTML} = post;
 

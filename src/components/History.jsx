@@ -4,7 +4,7 @@ const History = () => {
   return (
     <section id='history'>
       <div className="history-box">
-        <h3>History</h3>
+        <h3 className='section-title'>History</h3>
         <p>
           Greetings, I was recently asked to write about the history of Spooky
           Tree for our new website. I think the releases are the real story of
