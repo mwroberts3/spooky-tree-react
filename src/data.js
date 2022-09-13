@@ -33,7 +33,7 @@ export const releases = [
     title: 'Artery Drawing Anterio / The Icicle Men March',
     artist: 'Diagram A* / Chrome Jackson',
     image: '/img/str-008.jpg',
-    allImages: ['/img/str-008.jpg', '/img/str-008-02.jpg', '/img/str-008-gal.jpg'],
+    allImages: ['/img/str-008-02.jpg', '/img/str-008-gal.jpg'],
     format: '7"',
     year: '2009',
     discogsLink: 'https://www.discogs.com/Diagram-A-Chrome-Jackson-Artery-Drawing-Anterio-The-Icicle-Men-March/release/1970258',
@@ -49,7 +49,6 @@ export const releases = [
     artist: 'Noise Nomads / Urthquake',
     image: '/img/str-007.jpg',
     allImages: [
-    '/img/str-007.jpg', 
     '/img/str-007-02.jpg',
     '/img/str-007-03.jpg',
     '/img/str-007-04.jpg',
@@ -92,10 +91,7 @@ export const releases = [
     title: 'Last Known Address',
     artist: 'Urthquake',
     image: '/img/str-005.jpg',
-    allImages: [
-      '/img/str-005.jpg',
-      '/img/str-005-gal.jpg',
-    ],
+    allImages: ['/img/str-005.jpg'],
     format: '7"',
     year: '2008',
     discogsLink: 'https://www.discogs.com/Urthquake-Last-Known-Address/release/6270475',
@@ -112,8 +108,7 @@ export const releases = [
     artist: 'Urthquake',
     image: '/img/str-004.jpg',
     allImages: [
-      '/img/str-004.jpg',
-      '/img/str-004-gal.jpg'
+      '/img/str-004.jpg'
     ],
     format: 'CDr',
     year: 'unknown',
@@ -175,7 +170,7 @@ export const releases = [
     title: 'Monster in My Room',
     artist: 'Moses',
     image: '/img/str-001.jpg',
-    allImages: ['test monkey'],
+    allImages: ['/img/str-001.jpg'],
     format: '7"',
     year: '1995',
     discogsLink: 'https://www.discogs.com/Moses-Monster-In-My-Room/release/3432725',
