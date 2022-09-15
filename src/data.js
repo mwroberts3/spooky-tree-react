@@ -186,18 +186,22 @@ export const news = [
     date: 'Sep 5, 2022',
     title: 'UUUE Playing 4752 Festival on October 22nd',
     byLine: 'by Mike',
-    contentHTML: `See unofficial Spooky Tree Record mascots UUUE play at 4752 Festival on 10/22. 
+    contentHTML: `Sorry we've been MIA folks, but just wanted to drop in to say you can see the unofficial Spooky Tree Record mascots UUUE play at 4752 Festival on 10/22/22. 
     <br>
-    4:15pm at Destination Soups - 149 Union St in New Bedford, MA`
+    <br>
+    4:15pm at Destination Soups - 149 Union St in New Bedford, MA
+    <br>
+    <br>
+    There will be a bunch of other cool artists worth checking out as well!`
   },
   {
     date: 'Feb 4, 2021',
     title: '"Morris on Morris" Music Video',
     byLine: 'by Mike',
     contentHTML: `Last week, UUUE uploaded a new music video for their song "Morris on Morris" from the Psychic Dollhouse EP on YouTube. The video was created by the band's own Jhonathan Ramos.
-    <p>
-      <iframe width="984" height="791" src="https://www.youtube.com/embed/JY8amYwNbMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>`
+    <br>
+    <br>
+    <iframe width="984" height="791" src="https://www.youtube.com/embed/JY8amYwNbMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />`
   },
   {
     date: 'Jan 3, 2021',
@@ -213,21 +217,23 @@ export const news = [
     title: 'UUUE Live Performance from Dorchester Art Project',
     byLine: 'by Mike',
     contentHTML: `Thanks to the cool <a href="https://brain-arts.org/">Brain-Arts</a> folks at <a href="https://www.dorchesterartproject.com/">Dorchester Art Project</a>, UUUE was able to record a short set last Sunday, in preparation for the release of their new <em>Psychic Dollhouse EP</em>, which should be live on their <a href="https://uuue.bandcamp.com/">Bandcamp</a> page by the end of the month. Check out the video of their latest psych-rock barrage:
-    <p>
-      <iframe width="895" height="503" src="https://www.youtube.com/embed/HvDPfO_Zcss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>`
+    <br>
+    <br>
+    <iframe width="895" height="503" src="https://www.youtube.com/embed/HvDPfO_Zcss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
   },
   {
     date: 'Nov 1, 2020',
     title: 'Halloween Show at Spooky Tree Headquarters',
     byLine: 'by Mike',
-    contentHTML: ` What better time to have a Spooky Tree sponsored show than during Halloween? Yesterday, at headquarters in Hardwick, about 15 people showed up to watch uuue and Noise Nomads perform in a backyard show.The weather wasn't what we hoped for, but the energy was there, and the performances were great, although, at least one of the guitarists from uuue couldn't feel his fingers by the end of their set.
-    <p>Unfortunately, the recording of uuue's performance was lost because of technical issues, but below is the performance of Noise Nomads, who's industrial and glitchy drone was sure to have caused a stir in the quiet neighborhood.</p>
-    <p>
-      <iframe src="https://www.youtube.com/embed/CsXnUhaHflk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-    <p>
-      <iframe src="https://www.youtube.com/embed/cDi7ubzyzI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>`
+    contentHTML: ` What better time to have a Spooky Tree sponsored show than during Halloween? Yesterday, at headquarters in Hardwick, about 15 people showed up to watch UUUE and Noise Nomads perform in a backyard show.The weather wasn't what we hoped for, but the energy was there, and the performances were great, although, at least one of the guitarists from UUUE couldn't feel his fingers by the end of their set.
+    <br>
+    <br>
+    Unfortunately, the recording of UUUE's performance was lost because of technical issues, but below is the performance of Noise Nomads, who's industrial and glitchy drone was sure to have caused a stir in the quiet neighborhood.
+    <br>
+    <br>
+    <iframe src="https://www.youtube.com/embed/CsXnUhaHflk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <iframe src="https://www.youtube.com/embed/cDi7ubzyzI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 },
 ]

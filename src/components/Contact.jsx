@@ -7,12 +7,13 @@ const Contact = () => {
       <div className="form-box">
         <h3>Send Message</h3>
       <div className="inner-boundaries">
-        <form data-netlify="true">
+        <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name">Name</label>
-          <input type="text" />
+          <input type="text" name="name"/>
           <label htmlFor="name">Email</label>
-          <input type="text" />
-          <label htmlFor="subject">Subject</label>
+          <input type="text" name="email"/>
+          <label htmlFor="subject" name="subject">Subject</label>
           <input className="subject" type="text" />
           <label htmlFor="message">Message</label>
           <textarea
