@@ -508,6 +508,7 @@ header {
 }
 
 #contact input[type="submit"] {
+  cursor: pointer;
   width: 25%;
   margin-top: 15px;
   border: solid 1px #777;
