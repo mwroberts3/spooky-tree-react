@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="form-box">
         <h3>Send Message</h3>
       <div className="inner-boundaries">
-        <form name="/" method="post">
+        <form name="contact" method="POST">
           <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name">Name</label>
           <input type="text" name="name"/>
