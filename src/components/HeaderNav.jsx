@@ -5,9 +5,9 @@ import HeaderLogo from '../logo-1.jpg'
 const HeaderNav = () => {
   return (
     <header>
+      <img className="logo" src={HeaderLogo} alt="Spooky Tree Records" />
       <div id="banner">
         <h1>spooky tree records</h1>
-        <img className="logo" src={HeaderLogo} alt="Spooky Tree Records" />
         <nav id="navbar">
           <ul>
             <li>

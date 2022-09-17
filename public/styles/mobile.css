@@ -3,31 +3,44 @@ body {
   font-size: 1.1rem;
 }
 
+#root {
+  width: 100vw;
+}
+
 /* Utilities */
 .artist {
   display: block;
 }
 
 /* Banner */
-.banner-container {
-  text-align: center;
-  width: 175px;
-}
-
-.banner-container img {
-  width: 175px;
-  margin: auto;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
 }
 
 #banner {
-  max-width: 90%;
+  padding-top: 0;
 }
 
 #banner h1 {
-  display: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.logo {
+  position: unset;
 }
 
 /* Releases */
+#official-releases {
+  width: 100vw;
+  padding: 15px;
+  align-items: center;
+}
+
 #official-releases img {
   display: block;
   float: none;
@@ -50,36 +63,41 @@ body {
   font-size: 1rem;
 }
 
+#official-releases .purchase {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #official-releases .purchase a {
   font-size: 1rem;
 }
 
-#official-releases .str-release {
-  margin: 7px 5% 9px 5%;
+#official-releases .str-release-outer-container {
+  position: relative;
+  margin: 0 0 12px;
   padding: 15px;
-  width: 85%;
-  max-height: 1000px;
+  width: 100%;
   color: #fff;
   overflow: auto;
-  border-top-left-radius: 10px;
 }
 
-#official-releases .str-release.bottom {
-  margin: 7px 5% 31px 5%;
-  padding: 15px;
-  width: 85%;
-  max-height: 750px;
-  color: #fff;
-  overflow: auto;
-  border-top-left-radius: 10px;
+#official-releases .catNo {
+  display: none;
 }
 
-#official-releases .double-cover-container a {
-  display: flex;
-}
-
-#official-releases .double-cover-container a img {
-  width: 150px;
+#official-releases .catNo-mobile {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  background: #eee;
+  border-radius: 15px;
+  color: #333;
 }
 
 /* History */
