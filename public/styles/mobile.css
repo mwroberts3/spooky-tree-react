@@ -37,7 +37,7 @@ header {
 /* Releases */
 #official-releases {
   width: 100vw;
-  padding: 15px;
+  padding: 0 15px 15px;
   align-items: center;
 }
 
@@ -103,10 +103,9 @@ header {
 /* History */
 #history .history-box {
   text-align: center;
-  margin: 11px auto;
+  margin: 0 auto;
   padding: 15px;
   width: 90%;
-  border: 1px solid #555;
   color: #fff;
   border-radius: 10px;
 }
@@ -116,7 +115,6 @@ header {
   margin: 11px auto;
   padding: 15px;
   width: 90%;
-  border: 1px solid #555;
   color: #fff;
   border-radius: 10px;
 }
