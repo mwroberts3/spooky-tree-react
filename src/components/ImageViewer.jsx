@@ -19,16 +19,23 @@ const ImageViewer = ({setReleaseSelected, images}) => {
     });
   };
 
+  const closeImageViewer = (e) => {
+    if (e.target.tagName === 'IMG' || e.target.tagName === 'SECTION' || e.target.tagName === 'DIV') {
+      console.log(e.target.tagName);
+      setReleaseSelected({selected: false, images: null});
+    }
+  };
+
   return (
-    <section className='image-viewer'>
+    <section className='image-viewer' onClick={closeImageViewer}>
       <div className="image-container">
         {images.map((img, index) => {
-          return <img key={index} src={img} alt='' className={index !== activeImageIndex && 'hidden'} onClick={() => setReleaseSelected({selected: false, images: null})} />
+          return <img key={index} src={img} alt='' className={index !== activeImageIndex && 'hidden'} />
         })}
         <nav className='image-select'> 
           {images.length > 1 && <>
-          <FaArrowLeft className='is-icon' onClick={prevImage}/> 
-          <FaArrowRight className='is-icon' onClick={nextImage}/>
+          <FaArrowLeft className='image-viewer-icon' onClick={prevImage}/> 
+          <FaArrowRight className='image-viewer-icon' onClick={nextImage}/>
           </>}
         </nav>
       </div>

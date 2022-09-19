@@ -100,6 +100,14 @@ header {
   color: #333;
 }
 
+.image-viewer {
+  z-index: 3;
+}
+
+.image-container img {
+  width: 100%;
+}
+
 /* History */
 #history .history-box {
   text-align: center;

@@ -20,8 +20,13 @@
 }
 
 /* Releases */
+#official-releases {
+  padding: 0 35px;
+  padding-bottom: 20px;
+}
+
 #official-releases .str-release {
-  margin: 7px 0 7px 0;
+  margin: 0 0 7px 0;
   padding: 15px;
   width: 100%;
   height: 100%;
@@ -33,20 +38,18 @@
 /* History */
 #history .history-box {
   text-align: center;
-  margin: 11px auto;
+  margin: 0 auto;
   padding: 15px;
   width: 90%;
-  border: 1px solid #555;
   color: #fff;
   border-radius: 10px;
 }
 
 /* News */
 #news .news-box {
-  margin: 11px auto;
+  margin: 0 auto;
   padding: 15px;
   width: 90%;
-  border: 1px solid #555;
   color: #fff;
   border-radius: 10px;
 }

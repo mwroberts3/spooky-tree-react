@@ -135,10 +135,6 @@ iframe {
   color: #eee;
 }
 
-.selected-page {
-  color: #fdc3ae !important;
-}
-
 /* Banner */
 header {
   width: 600px;
@@ -299,7 +295,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin: auto;
   background:rgba(56, 85, 112, 0.7);
@@ -310,7 +306,7 @@ header {
 
 .image-container {
   position: fixed;
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -318,18 +314,19 @@ header {
 }
 
 .image-container img {
+  width: 50%;
   cursor: pointer;
 }
 
 .image-select {
   margin-top: 12px;
-  width: 50%;
+  width: 25%;
   display: flex;
   justify-content: space-between;
   font-size: 24px;
 }
 
-.is-icon {
+.image-viewer-icon {
   cursor: pointer;
 }
 

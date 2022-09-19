@@ -23,9 +23,9 @@ const Releases = () => {
       releases.map((release) => {
         const {catNo, title, artist, image, format, year, discogsLink, bandcampLink, buyLink, desc, extrasHTML} = release;
           
-        return <div className='str-release-outer-container'>
+        return <div key={catNo}className='str-release-outer-container'>
             <span className='catNo-mobile'>{catNo}&nbsp;&nbsp;{year}&nbsp;&nbsp;{format}</span>
-            <div className='str-release' key={catNo}>
+            <div className='str-release'>
               <span className='catNo'>{catNo}&nbsp;&nbsp;{year}&nbsp;&nbsp;{format}</span>
               <img src={image} alt={`${title} by ${artist}`} onClick={() => imageViewerPopup(catNo)}/> 
               <h3>
