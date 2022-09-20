@@ -306,15 +306,15 @@ header {
 
 .image-container {
   position: fixed;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  object-fit: fill;
 }
 
 .image-container img {
-  width: 50%;
+  width: 50vw;
   cursor: pointer;
 }
 
