@@ -56,6 +56,11 @@ iframe {
 }
 
 /* Utlity Classes */
+#error-header{
+  width: 200px;
+  margin: 0 auto;
+}
+
 .clr {
   clear: both;
 }

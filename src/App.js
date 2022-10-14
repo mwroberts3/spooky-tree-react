@@ -9,6 +9,7 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/news" element={<News />} />
       <Route path="/history" element={<History />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
     <Footer />
   </Router>
