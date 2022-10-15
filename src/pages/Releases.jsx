@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { releases } from '../data'
 import { FaCompactDisc, FaWallet, FaBandcamp } from 'react-icons/fa'
-import ImageViewer from './ImageViewer'
+import ImageViewer from '../components/ImageViewer'
 
 const Releases = () => {
   const [releaseSelected, setReleaseSelected] = useState({selected: false, images: null});

@@ -1,9 +1,8 @@
-import HeaderNav from './components/HeaderNav';
-import Releases from './components/Releases';
-import Footer from './components/Footer';
-import News from './components/News';
-import History from './components/History';
-import Contact from './components/Contact';
+import Releases from './pages/Releases';
+import News from './pages/News';
+import History from './pages/History';
+import Contact from './pages/Contact';
+import SharedLayout from './components/SharedLayout';
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,15 +13,15 @@ import PageNotFound from './components/PageNotFound';
 function App() {
   return (
   <Router>
-    <HeaderNav />
     <Routes>
-      <Route path="/" element={<Releases />} />
-      <Route path="/news" element={<News />} />
-      <Route path="/history" element={<History />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<PageNotFound />} />
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Releases />}/>
+        <Route path="/news" element={<News />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Route>
     </Routes>
-    <Footer />
   </Router>
 );
 }
